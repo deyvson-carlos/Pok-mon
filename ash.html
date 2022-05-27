@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Pokémon</title>
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/ash.css">
+    <link rel="stylesheet" href="src/css/cartaoash.css">
+    <link rel="stylesheet" href="src/css/listagem.css">
+    <link rel="stylesheet" href="src/css/responsivo.css">
+
+    <link rel="shortcut icon" href="src/images/Pokeball-PNG.logo.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;800&display=swap" rel="stylesheet" />
+
+    <!-- Font Awesome -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.1.0/mdb.min.css"
+    rel="stylesheet"
+    />
+
+</head>
+
+<body>
+    <main>
+
+    <!-- treinador -->
+        <div class="containerT">
+            <section class="mx-auto my-5" style="max-width: 23rem;">
+                
+              <div class="card testimonial-card mt-2 mb-3">
+                <div class="card-up aqua-gradient"></div>
+                <div class="avatar mx-auto white">
+                  <img src="src/images/ash/ash-removebg-preview.png" class="rounded-circle img-fluid"
+                    alt="woman avatar">
+                </div>
+                <div class="card-body text-center">
+                  <h4 class="card-title font-weight-bold">Ash Ketchum</h4>
+                  <hr>
+                  <p><i class="fas fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos,
+                    adipisci</p>
+                </div>
+              </div>
+              
+            </section>
+          </div>
+<!-- ==================================== -->
+
+ <!-- card -->
+        <div class="pokedex">
+            <div class="cartoes-pokemon">
+                <div class="cartao-pokemon aberto tipo-eletrico" id="cartao-pikachu">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Pikachu</h2>
+                            <span>#001</span>
+                        </div>
+
+                        <span class="tipo">Elétrico</span>
+
+                        <div class="cartao-imagem">
+                            <img src="src/images/ash/pikachu.png" alt="pikachu" />
+                        </div>
+                    </div>
+
+                    <div class="cartao-informacoes">
+                        <div class="status">
+                            <h3>Status</h3>
+
+                            <ul>
+                                <li>HP: 300</li>
+                                <li>Atq: 600</li>
+                                <li>Def: 500</li>
+                                <li>Vel: 300</li>
+                            </ul>
+                        </div>
+
+                        <div class="habilidades">
+                            <h3>Habilidades</h3>
+
+                            <ul>
+                                <li>Choque do Trovão</li>
+                                <li>Cabeçada</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-pokemon tipo-folha" id="cartao-bulbasaur">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Bulbasaur</h2>
+                            <span>#002</span>
+                        </div>
+                        <span class="tipo">Folha</span>
+                        <div class="cartao-imagem">
+                            <img src="src/images/ash/bulbasaur.png" alt="Imagem do bulbasaur">
+                        </div>
+                    </div>
+
+                    <div class="cartao-informacoes">
+                        <div class="status">
+                            <h3>Status</h3>
+
+                            <ul>
+                                <li>HP: 300</li>
+                                <li>Atq: 600</li>
+                                <li>Def: 500</li>
+                                <li>Vel: 300</li>
+                            </ul>
+                        </div>
+                        <div class="habilidades">
+                            <h3>Habilidades</h3>
+
+                            <ul>
+                                <li>Folha Navalha</li>
+                                <li>Raio Solar</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-pokemon tipo-agua" id="cartao-charmander">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Squirtle</h2>
+                            <span>#003</span>
+                        </div>
+                        <span class="tipo">Aquatico</span>
+                        <div class="cartao-imagem">
+                            <img src="src/images/ash/squirtle.png" alt="Imagem do Charmander">
+                        </div>
+                    </div>
+
+                    <div class="cartao-informacoes">
+                        <div class="status">
+                            <h3>Status</h3>
+
+                            <ul>
+                                <li>HP: 300</li>
+                                <li>Atq: 600</li>
+                                <li>Def: 500</li>
+                                <li>Vel: 300</li>
+                            </ul>
+                        </div>
+                        <div class="habilidades">
+                            <h3>Habilidades</h3>
+
+                            <ul>
+                                <li>Jato D'Água</li>
+                                <li>Cabeçada</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-pokemon tipo-fogo" id="cartao-dragonite">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Charizard</h2>
+                            <span>#004</span>
+                        </div>
+                        <span class="tipo">Fogo</span>
+                        <div class="cartao-imagem">
+                            <img class="edition" src="src/images/ash/Charizard.png" alt="Imagem do Dragonite">
+                        </div>
+                    </div>
+
+                    <div class="cartao-informacoes">
+                        <div class="status">
+                            <h3>Status</h3>
+
+                            <ul>
+                                <li>HP: 1000</li>
+                                <li>Atq: 1200</li>
+                                <li>Def: 1000</li>
+                                <li>Vel: 1300</li>
+                            </ul>
+                        </div>
+                        <div class="habilidades">
+                            <h3>Habilidades</h3>
+
+                            <ul>
+                                <li>Rajada de fogo</li>
+                                <li>Garra de dragãor</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-pokemon tipo-eletrico" id="cartao-gengar">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Raichu</h2>
+                            <span>#005</span>
+                        </div>
+                        <span class="tipo">Elétrico</span>
+                        <div class="cartao-imagem">
+                            <img src="src/images/raiochu.png" alt="Imagem do Raichu">
+                        </div>
+                    </div>
+
+                    <div class="cartao-informacoes">
+                        <div class="status">
+                            <h3>Status</h3>
+
+                            <ul>
+                                <li>HP: 980</li>
+                                <li>Atq: 1000</li>
+                                <li>Def: 900</li>
+                                <li>Vel: 1000</li>
+                            </ul>
+                        </div>
+                        <div class="habilidades">
+                            <h3>Habilidades</h3>
+
+                            <ul>
+                                <li>Choque do Trovão</li>
+                                <li>Cabeçada</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-pokemon tipo-agua" id="cartao-gyaradus">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Gyarados</h2>
+                            <span>#006</span>
+                        </div>
+                        <span class="tipo">Água</span>
+                        <div class="cartao-imagem">
+                            <img src="src/images/Agua/gyarados.png" alt="Imagem do Gyarados">
+                        </div>
+                    </div>
+
+                    <div class="cartao-informacoes">
+                        <div class="status">
+                            <h3>Status</h3>
+
+                            <ul>
+                                <li>HP: 300</li>
+                                <li>Atq: 600</li>
+                                <li>Def: 500</li>
+                                <li>Vel: 300</li>
+                            </ul>
+                        </div>
+                        <div class="habilidades">
+                            <h3>Habilidades</h3>
+
+                            <ul>
+                                <li>Bomba Hidráulica</li>
+                                <li>Jato D'Água</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-pokemon tipo-basico" id="cartao-mew">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Mew</h2>
+                            <span>#007</span>
+                        </div>
+                        <span class="tipo">Básico</span>
+                        <div class="cartao-imagem">
+                            <img src="src/images/mew.png" alt="Imagem do Zapdos">
+                        </div>
+                    </div>
+
+                    <div class="cartao-informacoes">
+                        <div class="status">
+                            <h3>Status</h3>
+
+                            <ul>
+                                <li>HP: 300</li>
+                                <li>Atq: 600</li>
+                                <li>Def: 500</li>
+                                <li>Vel: 300</li>
+                            </ul>
+                        </div>
+                        <div class="habilidades">
+                            <h3>Habilidades</h3>
+
+                            <ul>
+                                <li>Tiro Psíquico</li>
+                                <li>Cauda Misteriosa</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-pokemon tipo-gelo" id="cartao-articuno">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Miau</h2>
+                            <span>#008</span>
+                        </div>
+                        <span class="tipo">Felino</span>
+                        <div class="cartao-imagem">
+                            <img src="src/images/miau.png" alt="Imagem do Articuno">
+                        </div>
+                    </div>
+
+                    <div class="cartao-informacoes">
+                        <div class="status">
+                            <h3>Status</h3>
+
+                            <ul>
+                                <li>HP: 300</li>
+                                <li>Atq: 600</li>
+                                <li>Def: 500</li>
+                                <li>Vel: 300</li>
+                            </ul>
+                        </div>
+                        <div class="habilidades">
+                            <h3>Habilidades</h3>
+
+                            <ul>
+                                <li>Foul Play</li>
+                                <li>Frustration Shadow</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-pokemon tipo-water" id="cartao-vaporeon">
+                    <div class="cartao-topo">
+                        <div class="detalhes">
+                            <h2 class="nome">Gengar </h2>
+                            <span>#009</span>
+                        </div>
+                        <span class="tipo">Veneno</span>
+                        <div class="cartao-imagem">
+                            <img src="src/images/gengar.png" alt="Imagem do genga">
+                        </div>
+                    </div>
+
+                    <div class="cartao-informacoes">
+                        <div class="status">
+                            <h3>Status</h3>
+
+                            <ul>
+                                <li>HP: 300</li>
+                                <li>Atq: 600</li>
+                                <li>Def: 500</li>
+                                <li>Vel: 300</li>
+                            </ul>
+                        </div>
+                        <div class="habilidades">
+                            <h3>Habilidades</h3>
+
+                            <ul>
+                                <li>Metamorfose</li>
+                                <li>Absorção da Força Vital</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+<!-- ========================================================== -->
+
+            <nav class="listagem">
+                <ul>
+                    <li class="pokemon ativo" id="pikachu">
+                        <img src="src/images/ash/cabeca-pikachu.png" alt="cabeça do Pikachu">
+                        <span>Pikachu</span>
+                    </li>
+                    <li class="pokemon" id="bulbasaur">
+                        <img src="src/images/ash/cabeca-bulbasaur.png" alt="cabeça do bulbasaur">
+                        <span>Bulbasaur</span>
+                    </li>
+                    <li class="pokemon" id="charmander">
+                        <img src="src/images/ash/cabeça-squirtle-removebg-preview.png" alt="cabeça do Squirtle">
+                        <span>Squirtle</span>
+                    </li>
+                    <li class="pokemon" id="dragonite">
+                        <img src="src/images/ash/cabeça-Charizard.png" alt="cabeça do Charizard">
+                        <span>Charizard</span>
+                    </li>
+                    <li class="pokemon" id="gengar">
+                        <img src="src/images/cabeça-raiochu.png" alt="cabeça do Raichu">
+                        <span>Raichu</span>
+                    </li>
+                    <li class="pokemon" id="gyaradus">
+                        <img src="src/images/Agua/cabeca-gyarados.png" alt="cabeça do Gayaradus">
+                        <span>Gayarados</span>
+                    <li class="pokemon" id="mew">
+                        <img src="src/images/cabeca-mew.png" alt="cabeça do Mew">
+                        <span>Mew</span>
+                    </li>
+                    <li class="pokemon" id="articuno">
+                        <img src="src/images/miau.png" alt="cabeça do Miau">
+                        <span>Miau</span>
+                    </li>
+                    <li class="pokemon" id="vaporeon">
+                        <img src="src/images/gengar.png" alt="cabeça do gengar">
+                        <span>Gengar </span>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </main>
+
+<!-- ====================================================== -->
+    <footer class="text-center text-white" style="background-color: #05ffa3;">
+        <!-- Grid container -->
+        <div class="container pt-4">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+      
+            <!-- Twitter -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-twitter"></i
+            ></a>
+      
+            <!-- Google -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-google"></i
+            ></a>
+      
+            <!-- Instagram -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-instagram"></i
+            ></a>
+      
+            <!-- Linkedin -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <!-- Github -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2022 Copyright:
+          <a class="text-dark" href="#">Deyvson Carlos</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+
+    <script src="src/js/index.js"></script>
+
+    <!-- MDB -->
+    <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.1.0/mdb.min.js"
+    ></script>
+</body>
+
+</html>
